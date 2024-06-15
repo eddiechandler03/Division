@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Division</title>
+</head>
+
+<style>
+    @font-face {
+        font-family: Lionello-light;
+        src: url(font/Lionello-light.ttf);
+    }
+    body{
+        margin: 0px;
+        padding-top: 0%;
+        padding:5%;
+        font-family: Lionello-light;
+        font-weight: bolder;
+        background-color: #c3fff9;
+    }
+    h1{
+        text-align: right;
+        font-style: italic;
+        font-size: 60px;
+        flex: 1;
+    }
+    section{
+        padding: 5%;
+    }
+    section.card{
+        box-shadow: 13px 10px #a2d2ff;
+        border-radius: 15px 0px;
+        background-color: #bde0fe;
+    }
+    section.card:hover{
+    scale: 1.05 1.05 1.05;
+    transition: .5s;
+    }
+    .box img{
+        min-width: 300px;
+        height: 350px;
+        flex: 1;
+    }
+    .box a{
+        border: 2px solid;
+        padding: 10px;
+        border-radius: 17px;
+        color: #138dff;
+        font-size: large;
+        text-decoration: none;
+        font-weight: 100;
+    }
+    .box p{
+        font-size: 50px;
+        text-align: center;
+        flex: 1;
+    }
+    .box a:hover{
+        transition: .3s;
+        background-color: #8bc7ff;
+        color: #000;
+    }
+    span.os{
+        font-size: 20px;
+        font-weight: 100;
+        color: rgba(0, 0, 0, 0.315);
+    }
+
+    span.price{
+        font-size: smaller;
+        font-weight: 100;
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+    .flex-logo{
+        display: flex;
+    }
+    .flex-link{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+
+    }
+    .price-box{
+        border: 2px solid #138dff;
+        border-radius: 5px;
+        background-color: aliceblue;
+        min-width: 200px;
+        align-items: center;
+        flex: 1;
+        padding: 5%;
+
+    }
+    .price-box p{
+        text-align: left;
+        font-size: medium;
+    }
+    .price-box h2{
+        font-size: x-large;
+    }
+    .price-box span{
+        font-weight: 100;
+        font-size: smaller;
+        font-style: italic;
+    }
+</style>
+
+<body>
+    <!--Logo-->
+    <div class="flex-logo">
+        <h1 class="logo">// DIVISON //</h1>
+    </div>  
+    <!--Hero section-->
+    <section class="card">
+
+        <div class="box">
+            <div class="flex">
+                <img src="images\business-1.png" alt="">
+                <p>
+                    Divide your adimin<br>
+                    Double the income<br>
+                    Do the maths...
+                </p>
+            </div>
+        <div class="flex-link">
+        <a href="#">Get you consultation Today</a>
+        </div>
+    </div>
+    </section>
+    <br><br>
+
+    
+    <!--Cosulatation-->
+    <section class="card">
+
+        <div class="box">
+            <div class="flex">
+                <img src="images/Smartphone.png" alt="">
+                <p>
+                    Complimentary welcome call to place you with the right memeber of our expert team.
+                </p>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!--Calls and Aplication-->
+    <section class="card">
+
+        <div class="box">
+            <p>
+                Contact us with ease from our 'Division Acounting' Mobile App.<br>
+                <span class="os">*avalible on IOS and Android</span>
+            </p>
+            <div class="flex-link">
+                <a href="https://www.apple.com/app-store/">Download IOS</a>
+                <a href="https://play.google.com/store/games?device=windows">Download Andriod</a>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <!--Pricing-->
+    <section class="card">
+        <div class="box">
+            <p>
+                Prices that wont half your revenue.<br>
+                <span class="price">*Starting from as low as $80/month</span>
+            </p>
+            <div class="flex">
+                <div class="price-box">
+                    <h2>
+                        Basic <span>$80/month*</span>
+                    </h2>
+                    <p>
+                        This package contains: 
+                    </p>
+                    <ul>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        
+                    </ul>
+                    <div class="flex-link">
+                        <a href="#">click to view plan</a>
+                    </div>
+                </div>
+                <div class="price-box">
+                    <h2>
+                        Profecional <span>$180/month*</span>
+                    </h2>
+                    <p>
+                        This package contains: 
+                    </p>
+                    <ul>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        <li>#</li>
+                        
+                    </ul>
+                    <div class="flex-link">
+                        <a href="#">click to view plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>         
+    <br><br>
+        
+    <!--Sign Up-->
+    <section class="card">
+
+        <div class="box">
+            <div class="flex">
+                <img src="images/reward.png" alt="">
+                <p>
+                    Sign up today and recive exlusive welcome bonuses
+                </p>
+            </div>
+            <br><br>
+            <div class="flex-link">
+                <a href="#">Sign up today</a>
+            </div>
+        </div>
+        
+    </section>
+    <br><br>
+</body>
+</html>
